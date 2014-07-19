@@ -48,8 +48,7 @@
 				<input type="submit" name="submit" value="Hit it!" id="submit" style="width:90px;margin-left:3px;color:purple">
 				</form>		
 							
-							
-							
+													
                         <hr class="star-light">
                         <span class="skills">Hit up a homie with a ghetto text message</span>
                     </div>

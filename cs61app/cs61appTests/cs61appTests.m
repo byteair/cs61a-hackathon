@@ -1,18 +1,18 @@
 //
-//  cs61a_hackTests.m
-//  cs61a-hackTests
+//  cs61appTests.m
+//  cs61appTests
 //
 //  Created by Hansen Chang on 7/18/14.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Copyright (c) 2014 ___hansen___. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface cs61a_hackTests : XCTestCase
+@interface cs61appTests : XCTestCase
 
 @end
 
-@implementation cs61a_hackTests
+@implementation cs61appTests
 
 - (void)setUp
 {

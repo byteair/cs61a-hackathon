@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "616469911979F79B00A0F596"
-               BuildableName = "cs61a-hack.app"
-               BlueprintName = "cs61a-hack"
-               ReferencedContainer = "container:cs61a-hack.xcodeproj">
+               BlueprintIdentifier = "616469DF1979FA7000A0F596"
+               BuildableName = "cs61app.app"
+               BlueprintName = "cs61app"
+               ReferencedContainer = "container:cs61app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "616469B51979F79B00A0F596"
-               BuildableName = "cs61a-hackTests.xctest"
-               BlueprintName = "cs61a-hackTests"
-               ReferencedContainer = "container:cs61a-hack.xcodeproj">
+               BlueprintIdentifier = "61646A031979FA7000A0F596"
+               BuildableName = "cs61appTests.xctest"
+               BlueprintName = "cs61appTests"
+               ReferencedContainer = "container:cs61app.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "616469911979F79B00A0F596"
-            BuildableName = "cs61a-hack.app"
-            BlueprintName = "cs61a-hack"
-            ReferencedContainer = "container:cs61a-hack.xcodeproj">
+            BlueprintIdentifier = "616469DF1979FA7000A0F596"
+            BuildableName = "cs61app.app"
+            BlueprintName = "cs61app"
+            ReferencedContainer = "container:cs61app.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "616469911979F79B00A0F596"
-            BuildableName = "cs61a-hack.app"
-            BlueprintName = "cs61a-hack"
-            ReferencedContainer = "container:cs61a-hack.xcodeproj">
+            BlueprintIdentifier = "616469DF1979FA7000A0F596"
+            BuildableName = "cs61app.app"
+            BlueprintName = "cs61app"
+            ReferencedContainer = "container:cs61app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "616469911979F79B00A0F596"
-            BuildableName = "cs61a-hack.app"
-            BlueprintName = "cs61a-hack"
-            ReferencedContainer = "container:cs61a-hack.xcodeproj">
+            BlueprintIdentifier = "616469DF1979FA7000A0F596"
+            BuildableName = "cs61app.app"
+            BlueprintName = "cs61app"
+            ReferencedContainer = "container:cs61app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>cs61a-hack.xcscheme</key>
+		<key>cs61app.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>616469911979F79B00A0F596</key>
+		<key>616469DF1979FA7000A0F596</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>616469B51979F79B00A0F596</key>
+		<key>61646A031979FA7000A0F596</key>
 		<dict>
 			<key>primary</key>
 			<true/>

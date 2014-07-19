@@ -1,14 +1,14 @@
 //
-//  _1aAppDelegate.m
-//  cs61a-hack
+//  FOOAppDelegate.m
+//  cs61app
 //
 //  Created by Hansen Chang on 7/18/14.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Copyright (c) 2014 ___hansen___. All rights reserved.
 //
 
-#import "_1aAppDelegate.h"
+#import "FOOAppDelegate.h"
 
-@implementation _1aAppDelegate
+@implementation FOOAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -44,11 +44,3 @@
 }
 
 @end
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    [Wit sharedInstance].accessToken = @"765Z4OJSVLV4TAIYWKCWY456WDKXO3QP"; // replace xxx by your Wit.AI access token
-    return YES;
-}
-
-

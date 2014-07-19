@@ -22,6 +22,11 @@
 		61646A081979FA7000A0F596 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616469E71979FA7000A0F596 /* UIKit.framework */; };
 		61646A101979FA7000A0F596 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61646A0E1979FA7000A0F596 /* InfoPlist.strings */; };
 		61646A121979FA7000A0F596 /* cs61appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61646A111979FA7000A0F596 /* cs61appTests.m */; };
+		61646A1D1979FAB500A0F596 /* Wit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 61646A1B1979FAB500A0F596 /* Wit.bundle */; };
+		61646A1E1979FAB500A0F596 /* Wit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61646A1C1979FAB500A0F596 /* Wit.framework */; };
+		61646A201979FABA00A0F596 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61646A1F1979FABA00A0F596 /* AVFoundation.framework */; };
+		61646A221979FAC000A0F596 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61646A211979FAC000A0F596 /* MobileCoreServices.framework */; };
+		61646A241979FADD00A0F596 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61646A231979FADD00A0F596 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		61646A0D1979FA7000A0F596 /* cs61appTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cs61appTests-Info.plist"; sourceTree = "<group>"; };
 		61646A0F1979FA7000A0F596 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61646A111979FA7000A0F596 /* cs61appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cs61appTests.m; sourceTree = "<group>"; };
+		61646A1B1979FAB500A0F596 /* Wit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Wit.bundle; path = "../../../Downloads/Wit-1.2.1/Wit.bundle"; sourceTree = "<group>"; };
+		61646A1C1979FAB500A0F596 /* Wit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Wit.framework; path = "../../../Downloads/Wit-1.2.1/Wit.framework"; sourceTree = "<group>"; };
+		61646A1F1979FABA00A0F596 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		61646A211979FAC000A0F596 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		61646A231979FADD00A0F596 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61646A241979FADD00A0F596 /* SystemConfiguration.framework in Frameworks */,
+				61646A221979FAC000A0F596 /* MobileCoreServices.framework in Frameworks */,
+				61646A201979FABA00A0F596 /* AVFoundation.framework in Frameworks */,
 				616469E61979FA7000A0F596 /* CoreGraphics.framework in Frameworks */,
+				61646A1E1979FAB500A0F596 /* Wit.framework in Frameworks */,
 				616469E81979FA7000A0F596 /* UIKit.framework in Frameworks */,
 				616469E41979FA7000A0F596 /* Foundation.framework in Frameworks */,
 			);
@@ -84,6 +98,8 @@
 		616469D71979FA7000A0F596 = {
 			isa = PBXGroup;
 			children = (
+				61646A1B1979FAB500A0F596 /* Wit.bundle */,
+				61646A1C1979FAB500A0F596 /* Wit.framework */,
 				616469E91979FA7000A0F596 /* cs61app */,
 				61646A0B1979FA7000A0F596 /* cs61appTests */,
 				616469E21979FA7000A0F596 /* Frameworks */,
@@ -103,6 +119,9 @@
 		616469E21979FA7000A0F596 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				61646A231979FADD00A0F596 /* SystemConfiguration.framework */,
+				61646A211979FAC000A0F596 /* MobileCoreServices.framework */,
+				61646A1F1979FABA00A0F596 /* AVFoundation.framework */,
 				616469E31979FA7000A0F596 /* Foundation.framework */,
 				616469E51979FA7000A0F596 /* CoreGraphics.framework */,
 				616469E71979FA7000A0F596 /* UIKit.framework */,
@@ -232,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61646A1D1979FAB500A0F596 /* Wit.bundle in Resources */,
 				616469FA1979FA7000A0F596 /* Main_iPad.storyboard in Resources */,
 				616469FF1979FA7000A0F596 /* Images.xcassets in Resources */,
 				616469F71979FA7000A0F596 /* Main_iPhone.storyboard in Resources */,
@@ -391,6 +411,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/hansenchang/Downloads/Wit-1.2.1",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cs61app/cs61app-Prefix.pch";
 				INFOPLIST_FILE = "cs61app/cs61app-Info.plist";
@@ -404,6 +428,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/hansenchang/Downloads/Wit-1.2.1",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cs61app/cs61app-Prefix.pch";
 				INFOPLIST_FILE = "cs61app/cs61app-Info.plist";

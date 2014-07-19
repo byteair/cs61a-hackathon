@@ -13,6 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [Wit sharedInstance].accessToken = @"765Z4OJSVLV4TAIYWKCWY456WDKXO3QP"; // replace xxx by your Wit.AI access token
     return YES;
 }
 							
@@ -43,4 +44,7 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+
+
 @end
+

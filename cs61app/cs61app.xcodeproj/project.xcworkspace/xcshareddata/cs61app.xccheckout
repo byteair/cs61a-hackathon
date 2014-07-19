@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B75C1809-2CE4-42C5-B64D-C09E9C007B66</string>
+	<string>4A68CE62-1C42-42D1-ABDE-7DA01F1175CF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>text2gps</string>
+	<string>cs61app</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B55B54C4-5F31-49E3-8591-944FFD9CB097</key>
+		<key>DD95F86E-A998-44D0-A70F-0C0748F433FF</key>
 		<string>https://github.com/byteair/cs61a-hackathon.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>text2gps/text2gps.xcodeproj/project.xcworkspace</string>
+	<string>cs61app/cs61app.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B55B54C4-5F31-49E3-8591-944FFD9CB097</key>
+		<key>DD95F86E-A998-44D0-A70F-0C0748F433FF</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B55B54C4-5F31-49E3-8591-944FFD9CB097</string>
+	<string>DD95F86E-A998-44D0-A70F-0C0748F433FF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B55B54C4-5F31-49E3-8591-944FFD9CB097</string>
+			<string>DD95F86E-A998-44D0-A70F-0C0748F433FF</string>
 			<key>IDESourceControlWCCName</key>
 			<string>cs61a-hackathon</string>
 		</dict>

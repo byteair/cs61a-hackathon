@@ -45,8 +45,8 @@
 		$body = "$quoterecieved";
 		$client->account->sms_messages->create($from, $to, $body);
 		echo "Sent message to $name ";
-		echo "<br> Redirecting back in 5 seconds";
-		echo "<meta http-equiv=refresh content=5;URL=http://test.biteair.com>";
+		echo "<br> Redirecting back";
+		echo "<meta http-equiv=refresh content=0;URL=http://test.biteair.com>";
 	
 
 	}	

@@ -14,9 +14,9 @@
 
 @implementation FOOViewController
 
-{
-    UILabel *labelView;
-}
+
+{UILabel *labelView;}
+
 
 - (void)viewDidLoad
 {
@@ -44,6 +44,17 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)witDidGraspIntent:(NSString *)intent entities:(NSDictionary *)entities body:(NSString *)body error:(NSError *)e {
+    if (e) {
+        NSLog(@"[Wit] error: %@", [e localizedDescription]);
+        return;
+    }
+    
+    labelView.text = [NSString stringWithFormat:@"intent = %@", intent];
+    
+    [self.view addSubview:labelView];
 }
 
 @end
